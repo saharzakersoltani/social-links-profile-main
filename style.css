@@ -91,3 +91,15 @@ body {
   color: hsl(0, 0%, 12%);
   background-color: hsl(75, 94%, 57%);
 }
+
+.attribution {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 3.2rem;
+}
+
+.attribution-link:link,
+.attribution-link:visited {
+  color: hsl(75, 94%, 57%);
+  text-decoration: none;
+}
