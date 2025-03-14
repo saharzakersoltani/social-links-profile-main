@@ -1,0 +1,93 @@
+/* 
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 /96 / 128
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+/* --------CARD SECTION---------------- */
+
+.card-section {
+  margin: 12.8rem 0;
+}
+
+.container {
+  width: 50rem;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 11px;
+}
+
+.card {
+  text-align: center;
+  padding: 4.8rem;
+}
+
+.img {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 100%;
+  margin-bottom: 2.4rem;
+}
+
+.name {
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.country {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.job {
+  margin-bottom: 2.4rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  text-align: center;
+}
+
+.link:link,
+.link:visited {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  text-decoration: none;
+  background-color: hsl(0, 0%, 20%);
+  padding: 1.6rem 3.2rem;
+  border-radius: 11px;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  cursor: pointer;
+  color: hsl(0, 0%, 12%);
+  background-color: hsl(75, 94%, 57%);
+}
