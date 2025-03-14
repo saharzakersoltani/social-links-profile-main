@@ -1,6 +1,6 @@
 # Social Links Profile
 
-![Project Screenshot](./final.png) <!-- Replace with an actual screenshot of your project -->
+![Project Screenshot](./final.png) 
 
 This is a responsive social links profile page built as part of the [Frontend Mentor](https://www.frontendmentor.io) challenges. The goal of this project was to create a clean and responsive profile page that links to various social media platforms.
 
@@ -12,7 +12,6 @@ This is a responsive social links profile page built as part of the [Frontend Me
 - [My Process](#my-process)
   - [Built With](#built-with)
   - [What I Learned](#what-i-learned)
-
 - [Acknowledgments](#acknowledgments)
 - [Contact](#contact)
 
